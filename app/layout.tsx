@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Interactive lessons on UX and UI fundamentals with live code editing.",
   },
-  metadataBase: new URL("https://ux-ui-workshop.vercel.app"),
+  metadataBase: new URL("https://ux-ui-summer-camp.vercel.app"),
 }
 
 export default function RootLayout({
