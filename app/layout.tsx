@@ -13,9 +13,26 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "UX/UI Workshop",
+  title: {
+    default: "UX/UI Workshop — DX Hub AI Summer Camp",
+    template: "%s | UX/UI Workshop",
+  },
   description:
-    "Interactive UX and UI lessons with live code editing.",
+    "A hands-on interactive workshop on building great user experiences with React. Live code editor, real-time preview, and lessons on state, layout, typography, and accessibility.",
+  openGraph: {
+    title: "UX/UI Workshop — DX Hub AI Summer Camp",
+    description:
+      "Interactive lessons on UX and UI fundamentals with live code editing.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UX/UI Workshop — DX Hub AI Summer Camp",
+    description:
+      "Interactive lessons on UX and UI fundamentals with live code editing.",
+  },
+  metadataBase: new URL("https://ux-ui-workshop.vercel.app"),
 }
 
 export default function RootLayout({
