@@ -252,6 +252,31 @@ body {
   text-transform: uppercase;
   color: var(--muted-foreground);
 }
+
+.skeleton {
+  background: var(--muted);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.progress-track {
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: var(--muted);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--primary);
+  transition: width 150ms ease;
+}
 `,
 
   "/components/ui.tsx": `import * as React from "react";

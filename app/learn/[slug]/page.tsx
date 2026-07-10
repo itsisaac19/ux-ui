@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: LessonPageProps) {
   }
 
   return {
-    title: `${lesson.title} | React Workshop`,
+    title: `${lesson.title} | UX/UI Workshop`,
     description: lesson.description,
   }
 }

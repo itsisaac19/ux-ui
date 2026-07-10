@@ -24,10 +24,10 @@ export function LessonShell({ lesson }: LessonShellProps) {
           <h1 className="text-sm font-semibold">{lesson.title}</h1>
         </div>
         <Popover>
-          <PopoverTrigger className="inline-flex size-7 items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground">
+          <PopoverTrigger className="inline-flex size-7 cursor-pointer items-center justify-center rounded-lg text-muted-foreground hover:bg-muted hover:text-foreground">
             <Info className="size-4" />
           </PopoverTrigger>
-          <PopoverContent align="end" className="w-80 max-h-[70vh] overflow-y-auto">
+          <PopoverContent align="end" className="w-80 max-h-[70vh] overflow-y-auto p-4">
             <div className="space-y-4">
               <div>
                 <h3 className="text-sm font-semibold">Objectives</h3>

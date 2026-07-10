@@ -13,9 +13,9 @@ const fontMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "React Workshop",
+  title: "UX/UI Workshop",
   description:
-    "Interactive React and state management lessons with live code editing.",
+    "Interactive UX and UI lessons with live code editing.",
 }
 
 export default function RootLayout({
